@@ -1,6 +1,6 @@
 const path = require('path')
 
-const express = require("express");
+const express = require("express")
 
 const app = express()
 const port = process.env.PORT || 3000
@@ -10,12 +10,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('/stage', (req ,res) => {
     console.log(req.query)
-    // if(!req.query.ans){
-    //     return res.send({
-    //         'error' : 'ERROR'
-    //     })
-    // }
-    if (req.query.ans.toLowerCase() === "abc"){
+    if (req.query.ans.toLowerCase() === "apogee"){
         return res.send({
             'isCorrect': true
         })
