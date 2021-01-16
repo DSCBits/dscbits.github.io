@@ -5,6 +5,8 @@ body {
     margin: 0;
     overflow: hidden;
     user-select: none;
+    width: 100vw;
+    height: 100vh;
 
 }
 header{
@@ -54,6 +56,6 @@ form{
     color: white;
     font-weight: bold;
     background: #0a0e31;
-    margin: 5% 50%;
+    margin: 3% 50%;
     transform: translateX(-50%);
 }

@@ -1,3 +1,6 @@
+const changeURL = (url) => {
+    console.log(document.getElementById('host').src)
+}
 
 document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault()
