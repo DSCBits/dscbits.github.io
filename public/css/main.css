@@ -1,0 +1,57 @@
+body {
+    background: url("/assets/Supermassive_blackhole_planet.jpg");
+    background-size: cover;
+    color: #f5f5f5;
+    margin: 0;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5% 0 0;
+}
+h3{
+    padding: 3% 7%;
+    font-family: 'googleSans';
+    line-height: 3.5;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+.submit{
+    font-size: 1em;
+    padding: 13px 33px;
+    border: white 2px solid;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    background: #0a0e31;
+}
+input[type="text"]{
+    font-size: 1em;
+    padding: 13px 33px;
+    border: white 2px solid;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    background: #0a0e3182;
+    margin: 0 2% 0 0;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+.continue{
+    font-size: 1em;
+    padding: 13px 33px;
+    border: white 2px solid;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    background: #0a0e31;
+    margin: 5% 50%;
+    transform: translateX(-50%);
+}

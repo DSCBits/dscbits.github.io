@@ -2,13 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>DSC</title>
+    <link rel="stylesheet" href="/assets/font/font.css">
+    <link rel="icon" href="/assets/logo.png">
+    <style>
+
+        body {
+            background: url("/assets/Supermassive_blackhole_planet.jpg");
+            background-size: cover;
+            color: #f5f5f5;
+            margin: 0;
+            overflow: hidden;
+        }
+        header{
+            display: flex;
+            height: 10%;
+            align-items: center;
+            justify-content: center;
+            padding: 5.5% 0 0;
+        }
+        h3{
+            padding: 3% 7%;
+            font-family: 'googleSans';
+            line-height: 3.5;
+            letter-spacing: 2px;
+            text-align: justify;
+        }
+        .continue{
+            font-size: 1em;
+            padding: 13px 33px;
+            border: white 2px solid;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            background: #0a0e31;
+            margin: 5% 50%;
+            transform: translateX(-50%);
+        }
+
+    </style>
 </head>
 <body>
-    <form>
-        <input name="stage1" id="stage1" type="text">
-        <input type="submit">
-    </form>
+<header>
+    <img src="/assets/logo.png" style="height: 50px">
+</header>
+<h3>
+    You see your death in front of you, you're scared, well anyone would be in this situation. But you, you have a calm
+    mind. There is a backup engine that can only be used in times of despair. You recall this from your training. But
+    you don't know the password to activate it, yet. Its password is highly encrypted so that alien species in outer
+    space cannot highjack your spacecraft. Now, you have the task of figuring it out.</br>
+    <a href="question.html">
+        <button class="continue">
+            Continue
+        </button>
+    </a>
+
+</h3>
+<!--<form>-->
+<!--    <input name="stage1" id="stage1" type="text">-->
+<!--    <input type="submit">-->
+<!--</form>-->
 </body>
 <script src="./js/index.js"></script>
 </html>
