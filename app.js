@@ -10,7 +10,7 @@ app.use(express.static(publicDirectoryPath))
 
 app.get('/stage', (req ,res) => {
     console.log(req.query)
-    if (req.query.ans.toLowerCase() === "apogee"){
+    if (req.query.ans.toLowerCase().includes("apogee")){
         return res.send({
             'isCorrect': true
         })

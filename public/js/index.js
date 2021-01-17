@@ -9,7 +9,11 @@ document.querySelector('form').addEventListener('submit', (e) => {
             console.log(data)
                 if(data.isCorrect){
                     console.log(data)
-                    document.getElementsByTagName('body')[0].innerHTML = '<p>abv</p>'
+                    console.log(window.location)
+                    window.location.pathname = "/aADBjSAKDNjadnkaDajdbJ.html"
+                }
+                else{
+                    window.location.pathname = "/aADBjSAKDNjadnkaDbjdbJ.html"
                 }
         })
     })
